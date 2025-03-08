@@ -49,3 +49,7 @@ function New(){
 }
 
 export default New
+
+// ternory opreator always use in  {}
+// return ke under conditional oprerator ka use krne ke liye ternary oprator ka use krte h
+// return ke upar if else ka use kr skte h
