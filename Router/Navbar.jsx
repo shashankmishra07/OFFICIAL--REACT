@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom"   
+import { Link, Outlet } from "react-router-dom" 
+// outlet is already imported  
 
 
 function Navbar() {
@@ -20,6 +21,13 @@ function Navbar() {
                 </ul>
             </nav>
 
+            <Outlet/>
+
+            <footer>
+                <h1>Footer</h1>
+                <h5>footer all pages show honga</h5>
+            </footer>
+
         </>
 
     )
@@ -31,3 +39,4 @@ export default Navbar
 /* <Link> </Link>       me to ke under url pass krte h */ 
 
 // app.jsx me sabse pahle home page hi open rhe so TO me url ko hata diya or vaha / likh diya
+//outlet childern ko render krwata h
