@@ -3,8 +3,17 @@ function App(){
         <>
         <Routes>
             <Route index element= {<Sign/>}/>
-            <Route path="/login"
+            <Route path="/login "
         </Routes>
+
+        <Routes>
+        <Route index element= {<Sign/>}/>
+        <Route path="/login "
+    </Routes>
+    <Routes>
+    <Route index element= {<Sign/>}/>
+    <Route path="/login "
+</Routes>
         </>
     )
 }
